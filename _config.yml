@@ -1,0 +1,4 @@
+name: Sometimes Successful
+markdown: maruku
+pygments: true
+permalink: /:categories/:year/:month/:day/:title/

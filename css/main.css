@@ -1,0 +1,217 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 59%;
+  }
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font-size: 1.6rem;
+  font-family: Georgia, serif;
+  padding: 0 2rem 2rem 2rem;
+  color: #333;
+}
+
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.5rem;
+}
+h3 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 2.5rem;
+}
+h5 {
+  font-size: 2rem;
+}
+h6 {
+  font-size: 1.6rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 900;
+  margin-bottom: 0.2rem;
+  line-height: 1.2;
+}
+p, ul, ol, img, blockquote, pre {
+  display: block;
+  margin: 2rem 0;
+}
+
+a         { color: #5a87e2; text-decoration: none; }
+a:hover, a:focus, a:active, a:visited   { color: #3170EC; }
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+
+ul.posts li {
+  line-height: 1.75rem;
+}
+
+ul.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 0.8rem;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.intro {
+  border: 1px solid #3170EC;
+  background-color: #CAD6F0;
+  padding: 0.8rem 1.6rem;
+  overflow: visible;
+  font-size: 1.6rem;
+  position: relative;
+}
+
+.site {
+  max-width: 700px;
+  margin: 3rem auto 3rem;
+  line-height: 1.5;
+}
+
+.site .header a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.site .header h1.title {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+
+.site .header a.extra {
+  color: #aaa;
+  margin-left: 1rem;
+}
+
+.site .header a.extra:hover {
+  color: #000;
+}
+
+
+.site .meta {
+  color: #aaa;
+}
+
+.site .post blockquote {
+  font-size: 2rem;
+  font-style: italic;
+  padding-left: 2rem;
+  line-height: 1.5;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: #666;
+}
+
+.site .post ol, .site .post ul {
+  padding-left: 2rem;
+}
+.site .post ol li, .site .post ul li {
+  list-style-position: outside;
+  color: #666;
+}
+
+.site .post hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.site .post table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+
+.site .post table, .site .post table tr, .site .post table th, .site .post table td {
+  border: 1px solid #ccc;
+}
+
+.site .post table th, .site .post table td {
+  padding: 6px 10px;
+}
+
+.site .post table thead {
+  background: #eee;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.site .footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+.site .footer .contact {
+  float: left;
+  margin-right: 3rem;
+}
+
+
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+.post pre {
+  border: 1px solid #ccc;
+  background-color: #eee;
+  padding: 0.8rem 1.6rem;
+  overflow: auto;
+  font-size: 1.6rem;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35rem;
+}
+
+.post code {
+  border: 1px solid #ccc;
+  background-color: #eee;
+  padding: 0 .2rem;
+}
+
+.post pre code {
+  border: none;
+}
