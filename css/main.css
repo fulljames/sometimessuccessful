@@ -215,3 +215,7 @@ ul.posts span {
 .post pre code {
   border: none;
 }
+
+.twitter-tweet.twitter-tweet-rendered {
+  width: 100% !important;
+}

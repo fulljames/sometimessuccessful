@@ -32,12 +32,16 @@
             </div>
             <div class="contact">
               <p>
-                <a href="https://github.com/PaulAdamDavis/sometimessuccessful">Project on Github</a><br />
+                <a href="https://github.com/PaulAdamDavis/sometimessuccessful">Project on GitHub</a><br />
                 <a href="https://twitter.com/sometimesuccess">@sometimesuccess</a><br />
               </p>
             </div>
           </div>
         </div>
+
+        {% if content contains 'witter-tweet' %}
+          <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        {% endif %}
 
     </body>
 </html>
