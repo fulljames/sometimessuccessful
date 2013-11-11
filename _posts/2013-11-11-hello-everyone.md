@@ -22,5 +22,5 @@ The only way these stories will be known is if you share them.
 
 To submit your story, you can either:
 
-* Form the [site on GitHub](https://github.com/PaulAdamDavis/sometimessuccessful) and send a pull request
+* Fork the [site on GitHub](https://github.com/PaulAdamDavis/sometimessuccessful) and send a pull request
 * Email me [here](mailto:pauladamdavis@gmail.com?subject=Sometimes%20Successful) (for string confidentiality) and I'll push it for you
